@@ -21,7 +21,7 @@ model.addDense(7,activation="sigmoid")
 model.addDense(3,activation="relu")
 model.addOutput(activation="softmax")
 #Set Hyperparameters Default
-model.build(loss_function="cross_entropy",learning_rate=0.01,batch_size=32,steps_per_epoch=10,epochs=10)
+model.build(loss_function="cross_entropy",learning_rate=0.01,batch_size=32,steps_per_epoch=40,epochs=10)
 #description of the model
 model.summary()
 #initialize layers
@@ -31,8 +31,8 @@ x,y=model.train(train_data,train_truth,val_data,val_truth)
 #plot the graph of errors
 fig=plt.figure()
 fig.suptitle('test title', fontsize=20)
-plt.xlabel('xlabel', fontsize=18)
-plt.ylabel('ylabel', fontsize=16)
+plt.xlabel('epochs', fontsize=18)
+plt.ylabel('error', fontsize=16)
 plt.plot(x,label="train_error")
 plt.plot(y,label="val_error")
 plt.legend(loc='upper right')
