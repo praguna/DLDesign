@@ -21,4 +21,4 @@ model.compile()
 x,y=model.train(train_data,train_truth,val_data,val_truth)
 ```
 ## Visualize
-[!output] (/images/sample_graph.png)
+[!alt output](images/sample_graph.png)
