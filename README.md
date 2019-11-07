@@ -1,5 +1,5 @@
 # DLDesign
-The modules contain implementation of Neural Network from scratch and is written in a framework format. So that the project can be expansible
+The modules contain implementation of Neural Network from scratch and is written as a framework. So that the project is expansible
 and flexible.
 
 ## Usage
