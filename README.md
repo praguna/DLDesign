@@ -21,4 +21,4 @@ model.compile()
 x,y=model.train(train_data,train_truth,val_data,val_truth)
 ```
 ## Visualization
-[loss curve for the sample wheat dataset](images/sample_graph.png)
+![loss curve for the sample wheat dataset](images/sample_graph.png)
